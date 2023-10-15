@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.CellViewer, .MarkerFilter, .UMAP, .TSNE {
+  color: white;
+  background-color: gray;
+
+  height: 100px;
+
+  text-align: center;
+  /* text */
+}
+
+.content {
+  margin: 75px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 25px;
+}
+
+.stats {
+
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.CellViewer {
+  height: 70vh;
+}
+
+.MarkerFilter {
+  height: 100vh;
+}
+
+.UMAP, .TSNE {
+  height: 30vh;
+}
